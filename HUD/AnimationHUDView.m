@@ -119,7 +119,7 @@
     shape.fillColor = [UIColor cyanColor].CGColor;
     return shape;
 }
-//中心园透明度变化
+//中心圆透明度变化
 - (CAAnimation *)addOpacityAnimation{
     CABasicAnimation *opacityAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
     opacityAnimation.duration = 1.6;
